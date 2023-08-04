@@ -39,7 +39,7 @@ export default function Category(props) {
 
 
 <br></br>
-<div className="conatiner" class="flex flex-wrap space-x-1">
+<div className="flex flex-wrap space-x-1">
 
 <div className="rect-1" class="px-3 py-2" style={{width: 156, height: 120, background: '#6DD8B8', borderRadius: 20}}>
       <div className="Breakfast" style={{width: 118, height: 19, color: 'black', fontSize: 15, fontFamily: 'Avenir', fontWeight: '900', wordWrap: 'break-word'}}>
@@ -70,7 +70,7 @@ export default function Category(props) {
 <br></br>
 <div className="ChooseCategory" style={{color: 'black', fontSize: 25, fontFamily: 'Avenir', fontWeight: '500', wordWrap: 'break-word',textAlign:"center"}}>Choose Category
 </div>
-        </div>
+ </div>
       
       );   
 }
